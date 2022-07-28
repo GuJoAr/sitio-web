@@ -1,0 +1,17 @@
+p {
+    margin: 1rem;
+    text-align: left;
+    font-size: x-large;
+}
+
+img {
+    margin: 1cm;    
+    max-width: 20%;
+    max-height: 20%;
+}
+
+
+h6 {
+    font-size: x-large;
+    margin: 1rem;
+}

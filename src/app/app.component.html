@@ -1,0 +1,28 @@
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href="">Inicio</a></li>
+    <li><a class='dropdown-arrow' href="/frontend">Frontend</a>
+      <ul class='sub-menus'>
+        <li><a href="html">HTML</a></li>
+        <li><a href="css">CSS</a></li>
+        <li><a href="javascript">JavaScript</a></li>
+        <li><a href="angular">Angular</a></li>
+      </ul>
+    </li>
+    <li><a class='dropdown-arrow' href='/backend'>Backend</a>
+      <ul class='sub-menus'>
+        <li><a href='csharp'>C#</a></li>
+        <li><a href='git'>Git-GitHub</a></li>
+        <li><a href='sql'>SQL</a></li>
+        <li><a href='netcore'>.Net Core</a></li>
+      </ul>
+    </li>
+    <li><a href='/quienes/'>Quienes Somos</a></li>
+    <li><a href='/contacto'>Contacto</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+
